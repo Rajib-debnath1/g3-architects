@@ -388,6 +388,11 @@ header {
         flex-direction:column;
         gap: 80px;
     }
+    .enjoy-img img {
+        width: 90%;
+        margin: auto;
+        height: 650px;
+    }
     .facts .facts-items {
         display: flex;
         flex-direction: column;
