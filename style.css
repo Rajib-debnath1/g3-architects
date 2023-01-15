@@ -214,6 +214,7 @@ header {
     padding: 30px 10%;
 }
 
+
 .facts .facts-title {
     font-weight: 700;
     font-size: 30px;
@@ -240,8 +241,12 @@ header {
     text-align: center;
     padding: 10px 15px;
     width: 150px;
+    transition: 700ms transform ease;
 }
 
+.facts-item:hover{
+ transform: rotateX(45deg);
+}
 .facts-item h3 {
     font-weight: 600;
     font-size: 25px;
@@ -284,6 +289,42 @@ header {
 .logo img {
     width: 80px;
     height: 50px;
+}
+
+/************************************
+     contact section 
+     ******************************* */
+
+.contact-item .description{
+    color: #474747;
+    margin-top: 25px;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    
+}
+ .contact .contact-item{
+    text-align: left;
+
+}
+.contact-item .input{
+    margin-top: 20px;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+}
+.contact textarea{
+    margin-bottom: 20px;
+}
+.contact-item img{
+    margin-top: 20px;
+}
+.contact-item a{
+    text-decoration: none;
+    margin-right: 15px;
 }
 
 /* *******************************
